@@ -212,9 +212,8 @@ describe('Part 2: Dom Tricks', function(done) {
     done();
   });
 
-  // TODO: fix  
   it('Nav Border', function(done) {
-    console.log("border-bottom", $('nav').css())
+//     console.log("border-bottom", $('nav').css())
     expect($('nav').css("border-bottom-width"),
            'The `border bottom` shold be set to 10px').
       to.equal('10px');
